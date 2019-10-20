@@ -120,8 +120,11 @@ position: absolute;
    
   }
   article {
+    border-top: 1px solid rgb(0, 0, 0); 
     margin-top: 30px;
-    width: 610px;
+    width: 500px;
+    font-weight: bold;
+    font-size:13pt;
   }
   .projects{
     border-top: 1px solid rgb(0, 0, 0); 
@@ -154,12 +157,18 @@ position: absolute;
   
 }
 .slide-1{
-  background-color: blue;
+  background: url("./projects/theyalow/assets/images/Parrots.png");
+  background-repeat: no-repeat;
+  background-size: 150% 120%;
+  background-position-x: -150px;
+  /* background:cover; */
   
 }
 .slide-2{
-  background-color: rgb(255, 0, 55);
+  background:url("./projects/repair-design-project/Group7.png");
   /* transform: translate3d(-500px,0px,0px); */
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
 }
 .slide-content0{
   transform: translate3d(0px,0px,0px);
@@ -167,7 +176,22 @@ position: absolute;
 .slide-content1{
   transform: translate3d(-500px,0px,0px);
 }
-
+.slide-1>a{
+  float: right;
+  margin: 46% 67% 0px 0;
+  /* text-decoration:none; */
+  color: black;
+  font-size: xx-large;
+  
+  
+}
+.slide-2>span{
+ 
+  margin: 46% 67% 0px 0;
+  /* text-decoration:none; */
+  color: white;
+  font-size: xx-large;
+}
 @media screen and (max-width: 375px){
   .article{
     width: 370px;
@@ -178,13 +202,24 @@ position: absolute;
 }
 .projects{
   width: 370px;
+  align-content:stretch;
 }
 .slide-content{
-  width: 370px;}
+  width: 370px;
+  
+}
   .slide{
     width: 370px;
+   
   }
   #content{
     margin-left: 20px;
-    width: 700px;
+    width: 720px;
   }
+.slide-1{
+  background-size: 170vw 320px;
+  background-position-x: -54vw;
+}
+.slide-content1{
+  transform: translate3d(-380px,0px,0px);
+}
