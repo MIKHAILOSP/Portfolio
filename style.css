@@ -1,0 +1,167 @@
+header div {
+    width: 190px;
+    height: 3vh;
+    margin-top: -40px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -0%);
+    display: flex;
+ 
+  justify-content: center;
+  border-radius: 1em;
+  box-shadow: 0px 1px 7px;
+  text-align: center;  
+  /* position: absolute; */
+    position: fixed;
+   
+}
+body{
+    margin-left: 40px;
+  margin-top: 40px;
+    height:800px;
+    width: 100%;
+    
+}
+
+  
+}
+
+}
+em {
+  font-style: italic;
+}
+.icon {
+  width: 80px;
+  height: 100px;
+  background:url("./assets/img/ico.png") ;
+  border-radius: 48%;
+  background-position: 60% 30%;
+  background-size:190%  ;
+  
+}
+section{
+  display: flex;
+  width: 400px;
+  height: 160px;
+  justify-content: space-between;
+  
+}
+.links{
+  align-self:flex-start;
+  margin-right: 222px;
+}
+dd {
+  margin-left: 15px;
+  margin-top: 1px;
+}
+dt {
+  margin-top: 5px;
+}
+.name{
+  margin-left:-21px;
+  font-weight: bold;
+ 
+}
+.education p{
+
+font-weight: bold;
+
+}
+.dropdown{
+  display: none;
+  cursor: pointer;
+}
+.dropbtn::before{
+  
+  font-size: 80%;
+  color: rgb(100, 99, 99);
+  
+}
+.down ::before {
+  content: '|| ';
+}
+.dropdown.show {
+
+  display: block;
+  cursor: pointer;
+  color: black;
+  transition: 3s;
+  margin-left: 15px;
+  }
+.show > li  {
+  margin-top: 8px;
+}
+.dropbtn{
+  cursor: pointer;
+}
+.dropbtn:hover{
+ 
+  color: #fff;
+  background: #333;
+  
+}
+.education{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  
+    border-top: 3px solid rgb(0, 0, 0); 
+    border-bottom: 1px solid rgb(0, 0, 0);
+   
+  }
+  article {
+    margin-top: 30px;
+    width: 610px;
+  }
+  .projects{
+    border-top: 1px solid rgb(0, 0, 0); 
+    border-bottom: 1px solid rgb(0, 0, 0);
+    display: flex;
+    margin-top: 30px;
+    width: 620px;
+    height: 300px;
+    
+    justify-content: space-around;
+  }
+  /* .projects div{
+    
+    width: 100%;
+      } */
+
+.slide-content{
+  display: flex;
+  width: 1000px;
+  height: 300px;
+  overflow: hidden; 
+  align-items: flex-start;
+ 
+}
+.slide{
+  width: 500px;
+  height: 300px;
+  
+}
+.slide-1{
+  background-color: blue;
+  transform: translate3d(0px,0px,0px);
+}
+.slide-2{
+  background-color: rgb(255, 0, 55);
+  /* transform: translate3d(-500px,0px,0px); */
+}
+@media screen and (max-width: 375px){
+  .article{
+    width: 370px;
+
+  }
+  .education{
+    width: 370px;
+}
+.projects{
+  width: 370px;
+}
+.slide-content{
+  width: 83vw;}
+  .slide{
+    width: 350px;
+  }
