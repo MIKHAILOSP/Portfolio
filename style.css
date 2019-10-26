@@ -213,10 +213,12 @@ position: absolute;
 }
 .slide-content0{
   transform: translate3d(0px,0px,0px);
+  -webkit-animation-direction: alternate-reverse;
   /* transition: 1s; */
 }
 .slide-content1{
   transform: translate3d(-500px,0px,0px);
+
 }
 .slide-1>a{
   float: right;
@@ -240,7 +242,7 @@ position: absolute;
 }
 .rightbtn1 {
   color: white !important;}
-@media screen and (max-width: 392px){
+@media screen and (max-width: 393px){
   .article{
     width: 370px;
 
