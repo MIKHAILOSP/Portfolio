@@ -187,7 +187,7 @@ position: absolute;
   width: 1000px;
   height: 300px;
   transition: -webkit-transform 1s;
-  /* transition-duration: 0.5s; */
+  transition: linear  0.5s;
   /* transform: rotate(360deg); */
   align-items: flex-start;
  
@@ -213,6 +213,7 @@ position: absolute;
 }
 .slide-content0{
   transform: translate3d(0px,0px,0px);
+  /* transition: 1s; */
 }
 .slide-content1{
   transform: translate3d(-500px,0px,0px);
@@ -233,6 +234,12 @@ position: absolute;
   color: white;
   font-size: xx-large;
 }
+.leftbtn1 {
+  color: white !important;
+  transition-timing-function: linear !important;
+}
+.rightbtn1 {
+  color: white !important;
 @media screen and (max-width: 375px){
   .article{
     width: 370px;
