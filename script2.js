@@ -30,3 +30,7 @@ rightButton.addEventListener('click',()=>{
     btn1.className="rightbtn1";
     }
 })
+
+var swiper = app.swiper.get('.slide-content0');
+
+swiper.slideNext();

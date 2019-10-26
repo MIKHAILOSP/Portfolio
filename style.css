@@ -239,8 +239,8 @@ position: absolute;
   transition-timing-function: linear !important;
 }
 .rightbtn1 {
-  color: white !important;
-@media screen and (max-width: 375px){
+  color: white !important;}
+@media screen and (max-width: 392px){
   .article{
     width: 370px;
 
@@ -271,6 +271,13 @@ position: absolute;
 .slide-content1{
   transform: translate3d(-380px,0px,0px);
 }
-#btn-right {
-  right: -15px;
+#btn-right,  #btn-left{
+top:35%;
+  margin-top: 15px;
+}
+#btn-right{
+  left: 89%;
+  /* right: 158px;
+  margin-right: 200px; */
+}
 }
